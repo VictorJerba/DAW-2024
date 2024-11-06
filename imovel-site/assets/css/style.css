@@ -216,3 +216,77 @@ font-size: 1.5rem;
 font-weight: 300;
 color: #8F90A6;
 }
+
+#specialists {}
+
+#specialists .specialists-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+#specialists .specialist {
+    width: 100%;
+    border: 1.5px solid #dcdceb;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    color: #01528a;
+}
+
+#specialists h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+#specialists p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #000;
+}
+
+#specialist .specialist-detail {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+    padding-top: 1rem;
+}
+
+#values {}
+
+#values .values-content {
+    display: flex;
+    gap: 1.5rem;
+}
+
+#values .values-text {
+   display:flex;
+   flex-direction: column;
+   padding: 0 1.5rem;
+   gap: 1.5rem;
+}
+
+#values .values-text p {
+    font-size: 1.1rem;
+    text-align: justify;
+    font-weight: 300;
+}
+
+#values .values-text .values-detail {
+    padding: 1.5rem;
+}
+
+#values .detail .values-detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+#values .value p {
+    background-image: url('../img/bullet-values.svg');
+    background-repeat: no-repeat;
+    background-position-y:center;
+    padding-left: 1.5rem;
+    font-weight: 500;
+}
