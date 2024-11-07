@@ -277,7 +277,7 @@ color: #8F90A6;
     padding: 1.5rem;
 }
 
-#values .detail .values-detail {
+#values  .values-detail .value {
     display: flex;
     justify-content: space-between;
     padding: 0.5rem;
@@ -289,4 +289,99 @@ color: #8F90A6;
     background-position-y:center;
     padding-left: 1.5rem;
     font-weight: 500;
+}
+
+footer{
+    background-color: #0889d4;
+    color: #FFFFFF;
+    margin-top: 3rem;
+    padding: 3rem 0;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-company {
+    width: 450px;
+}
+
+footer .footer-company p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+footer .footer-brand {
+background-image: url('../img/logo_imobiliaria_branca.svg');
+background-repeat: no-repeat;
+background-position-y: center;
+background-size: 2rem;
+padding-left: 2.5rem;
+line-height: 2rem;
+font-size: 1.5rem;
+font-weight: 300;
+margin-bottom: 1rem;
+}
+
+footer .footer-menu {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+footer .footer-menu-title {
+    font-weight: 400;
+}
+
+footer .footer-menu ul {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+footer .footer-menu li {
+    margin-bottom: 0.5rem;
+}
+
+footer .footer-menu a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer .footer-menu a:hover {
+    text-decoration: underline;
+}
+
+footer .footer-social {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+footer .footer-social span {
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem; 
+}
+
+footer .footer-social .facebook {
+    background-image: url('../img/icon-facebook.svg');
+}
+
+footer .footer-social .Instagram {
+    background-image: url('../img/icon-instagram.svg');
+}
+
+footer .footer-social .Twitter {
+    background-image: url('../img/icon-twitter.svg');
+}
+
+footer .footer-social .Linkedin {
+    background-image: url('../img/icon-linkedin.svg');
+}
+
+footer .footer-copyright p {
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 1.5rem;
 }
