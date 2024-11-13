@@ -354,7 +354,8 @@ footer .footer-menu a:hover {
 footer .footer-social {
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
+    padding-top: 3rem;
+    gap: 1rem;
 }
 
 footer .footer-social span {
